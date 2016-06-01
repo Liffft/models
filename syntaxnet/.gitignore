@@ -5,3 +5,4 @@
 /bazel-testlogs
 /bazel-tf
 /bazel-syntaxnet
+.DS_Store

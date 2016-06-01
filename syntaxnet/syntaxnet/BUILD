@@ -554,6 +554,15 @@ py_binary(
 )
 
 py_binary(
+    name = "conll2json",
+    srcs = ["conll2json.py"],
+    deps = [
+        ":graph_builder",
+        ":sentence_py_pb2",
+    ],
+)
+
+py_binary(
     name = "conll2tree",
     srcs = ["conll2tree.py"],
     deps = [
